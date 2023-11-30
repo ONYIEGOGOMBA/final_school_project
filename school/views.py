@@ -20,7 +20,7 @@ def home(request):
 
         messages.success(request, "Account created successful")
 
-        return redirect('signin')
+        return redirect('')
 
 
 
